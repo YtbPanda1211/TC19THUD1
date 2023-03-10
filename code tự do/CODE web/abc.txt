@@ -1,0 +1,87 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<iostream.h>
+#include<math.h>
+#define m 20
+int A[m],n;
+int scp(int n)
+{int i;
+ if(n<0) return -1;
+ if(n>=0)
+ {i=sqrt(n);
+  if(i*i==n) return 1;
+  else return -1; 	
+ }	
+}
+int snt(int n)
+{int i;
+if(n<=1) return -1;
+if((n==2)||(n==3)) return 1;
+if(n>3)
+{for(i=2;i<n;i++)
+if(n%i==0) return -1;
+return 1;	
+}
+}
+int snht(int n)
+{int i,S;
+ if(n<6) return -1;
+ if(n>=6)
+ {S=0;
+  for(i=1;i<n;i++)
+  if(n%i==0)
+  S=S+i;
+  if(S==n) return 1;
+  else return -1;	
+ }	
+}
+void nhap_mang()
+{int i;
+ cout<<"Nhap so phan tu  :";
+ cin>>n;
+ cout<<endl;
+ for(i=0;i<n;i++)
+ {printf(" Nhap phan tu thu %d :",i);
+ scanf("%d",&A[i]); 	
+}
+}
+void xuat_mang()
+{int i;
+for(i=0;i<n;i++)
+printf("%d",A[i]);
+}
+int main()
+{int i,S;
+ nhap_mang();
+ xuat_mang();
+ S=0;
+ for(i=0;i<n;i++)
+ if(A[i]%2==0)
+ S=S+A[i];
+ cout<<" Tong cac so chan la :"<<S;
+ S=0;
+ for(i=0;i<n;i++)
+ if(A[i]%2!=0)
+ S=S+A[i];
+ cout<<"\n Tong so le la %d :"<<S;
+ S=0;
+ for(i=0;i<n;i++)
+ if(snt (A[i])==1)
+ S=S+A[i];
+ cout<<"\n Tong cac so nguyen to la : "<<S;
+ S=0;
+ for(i=0;i<n;i++)
+ if(scp (A[i])==1)
+ S=S+A[i];
+ cout<<"\n Tong so chinh phuong la   :"<<S;
+ S=0;
+ for(i=0;i<n;i++)
+ if(snht (A[i])==1)
+ S=S+A[i];
+ cout<<"\n Tong so nguyen hoan toan la   :"<<S;
+ return 0;
+ 
+ 
+	
+}

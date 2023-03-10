@@ -1,0 +1,277 @@
+
+<html lang="en"><head>
+
+  <meta charset="UTF-8">
+  
+<link rel="apple-touch-icon" type="image/png" href="https://lienquan.pro/wp-content/uploads/2021/10/khanhhy.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://lienquan.pro/wp-content/uploads/2021/10/khanhhy.png">
+
+<link rel="mask-icon" type="" href="https://lienquan.pro/wp-content/uploads/2021/10/khanhhy.png" color="#111">
+
+
+  <title>Khánh Hy Quạc Quạc !!!</title>
+  
+  
+  <link rel="stylesheet" href="https://unpkg.com/modern-css-reset/dist/reset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap">
+  
+<style>
+/* Globals */
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 55rem;
+  padding: 2rem 1.5rem;
+  margin: 0 auto;
+  color: #241623;
+  background: #eef2f4;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 2.7rem;
+  max-width: 20ch;
+}
+
+p {
+  max-width: 60ch;
+}
+
+a {
+  color: currentcolor;
+}
+
+/* Utilities */
+.auto-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size, 14rem), 1fr)
+  );
+  grid-gap: var(--auto-grid-gap, 0);
+  padding: 0;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1em);
+}
+
+/* Composition */
+.team {
+  --flow-space: 2em;
+}
+
+/* Blocks */
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  aspect-ratio: 1/1;
+  position: relative;
+  padding: 1.5rem;
+  color: #ffffff;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.profile::before,
+.profile::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*inset: 0;*/
+  top: 0;
+  left: 0;
+}
+
+.profile::before {
+  background: linear-gradient(
+    to top,
+    hsl(0 0% 0% / 0.79) 0%,
+    hsl(0 0% 0% / 0.787) 7.8%,
+    hsl(0 0% 0% / 0.779) 14.4%,
+    hsl(0 0% 0% / 0.765) 20.2%,
+    hsl(0 0% 0% / 0.744) 25.3%,
+    hsl(0 0% 0% / 0.717) 29.9%,
+    hsl(0 0% 0% / 0.683) 34.3%,
+    hsl(0 0% 0% / 0.641) 38.7%,
+    hsl(0 0% 0% / 0.592) 43.3%,
+    hsl(0 0% 0% / 0.534) 48.4%,
+    hsl(0 0% 0% / 0.468) 54.1%,
+    hsl(0 0% 0% / 0.393) 60.6%,
+    hsl(0 0% 0% / 0.31) 68.3%,
+    hsl(0 0% 0% / 0.216) 77.3%,
+    hsl(0 0% 0% / 0.113) 87.7%,
+    hsl(0 0% 0% / 0) 100%
+  );
+  transition: 300ms opacity linear;
+}
+
+.profile::after {
+  background: linear-gradient(
+    45deg,
+    hsl(5 97% 63% / 0.7) 0,
+    hsl(5 97% 63% / 0) 100%
+  );
+  opacity: 0;
+  transition: 300ms opacity linear;
+}
+
+.profile > * {
+  z-index: 1;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  z-index: -1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: grayscale(1);
+  transition: filter 200ms ease, transform 250ms linear;
+}
+
+.profile h2,
+.profile p {
+  transform: translateY(2ex);
+}
+
+.profile h2 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  font-weight: 900;
+  letter-spacing: 0.03ch;
+  transition: 300ms transform ease;
+}
+
+.profile p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.profile p {
+  opacity: 0;
+  transition: 300ms opacity linear, 300ms transform ease-in-out;
+}
+
+.profile:focus {
+  outline: 0.5rem solid white;
+  outline-offset: -0.5rem;
+}
+
+.profile:hover :is(h2, p),
+.profile:focus :is(h2, p) {
+  transform: none;
+}
+
+.profile:hover::after,
+.profile:focus::after,
+.profile:hover::before,
+.profile:focus::before {
+  opacity: 0.7;
+}
+
+.profile:hover p,
+.profile:focus p {
+  opacity: 1;
+  transition-delay: 200ms;
+}
+
+.profile:hover img,
+.profile:focus img {
+  filter: grayscale(0);
+  transform: scale(1.05) rotate(1deg);
+}
+</style>
+
+  <script>
+  window.console = window.console || function(t) {};
+</script>
+
+  
+  
+  <script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+
+
+</head>
+
+<body translate="no">
+  <article class="flow">
+  <h1>Khắn Vịt Quạc Quạc !!!</h1>
+  <p>Hãy tham gia các cộng đồng của mình ở các đường liên kết bên dưới.</p>
+  <div class="team">
+    <ul class="auto-grid" role="list">
+      <li>
+        <a href="https://www.youtube.com/channel/UCv67Uo04FwmYiQVtskIia2g" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">Youtube</h2>
+          <p>Kênh Youtube Khánh Hy</p>
+          <img alt="Anita Simmons" src="https://khanhhy.com/youtube.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://khanhhy.com/dc" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">Discord</h2>
+          <p>Đi tới Đảo Vịt Liên Quân</p>
+          <img alt="Profile shot for Celina Harris" src="https://khanhhy.com/discord.png">
+        </a>
+      </li>
+	  <li>
+        <a href="https://nimo.tv/khanhhy" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">DUCKCITY</h2>
+          <p>Discord server Duckcity</p>
+          <img alt="Profile shot for Ruby Morris" src="https://khanhhy.com/gta.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://lienquan.pro" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">LienQuan.Pro</h2>
+          <p>Trang bị, bảng ngọc...</p>
+          <img alt="Profile shot for Ruby Morris" src="https://khanhhy.com/lienquan.pro.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://facebook.com/groups/vutrulienquan" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">Nhóm Facebook</h2>
+          <p>Đi tới Vũ Trụ Liên Quân</p>
+          <img alt="Profile shot for Nicholas Castro" src="https://khanhhy.com/nhom-fb.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://facebook.com/khanhhy.blv" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">Facebook</h2>
+          <p>Facebook cá nhân</p>
+          <img alt="Profile shot for Marc Dixon" src="https://khanhhy.com/facebook.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://facebook.com/khanhhytv" target="_blank&quot;" class="profile">
+          <h2 class="profile__name">Fanpage</h2>
+          <p>Fanpage của Khánh Hy</p>
+          <img alt="Profile shot for Chad" src="https://khanhhy.com/fanpage.png">
+        </a>
+      </li>
+    </ul>
+  </div>
+</article>
+  
+  
+  
+  
+
+
+
+
+ 
+</body></html>

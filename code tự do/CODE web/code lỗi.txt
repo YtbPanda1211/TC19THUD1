@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1147679ae7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@600;700;800&display=swap" rel="stylesheet">
+    <title>Nhà Hàng Của Duy - Duy's Restaurant </title>
+</head>
+<body>
+   <header>
+       <input type="checkbox">
+       <div class="menu-icon">
+           <span class="menu-line"></span>
+       </div>
+       <div class="menu-item">
+           <li><a href="">Trang chủ</a></li>
+           <li><a href="">Về chúng tôi</a></li>
+           <li><a href="">Hệ thống cửa hàng</a></li>
+           <li><a href="">Hình ảnh</a></li>
+           <li><a href="">Tin tức</a></li>
+           <li><a href="">Liên hệ</a></li>
+       </div>
+       <div class="header-text">
+           <h1>Tinh hoa ẩm thực</h1>
+           <a href="">Đặt bàn</a>
+       </div>
+   </header>
+
+   <section class="container">
+       <span class="section-text">Về Chúng Tôi</span> 
+       <div class="row">
+            <div class="about-item">
+                <img src="images/beer.png">
+                <p><span>Đồ Uống</span> <br>
+                    Bia các loại ,Rượu, Nước giải khát các loại,Nước ép các loại
+                </p>
+            </div>
+            <div class="about-item">
+                <img src="images/fast-food.png">
+                <p><span>Món Ăn</span> <br>
+                    GỎI XOÀI TÔM KHÔ
+
+                    GỎI TRÁI CÓC
+                    
+                    GỎI KHÔ SẶC BÓP XOÀI
+                    
+                    GỎI KHÔ SẶC BÓP KHỔ QUA
+                    
+                    GỎI RAU CÀNG CUA TRỘN CÁ MÒI
+                    
+                    GỎI BAO TỬ
+                    
+                    GỎI TÔM MỰC
+                    
+                    GỎI TÔM THỊT
+                    
+                    GỎI GÀ HOA CHUỐI
+                    
+                    GỎI CHÂN GÀ RÚT XƯƠNG
+                    
+                    SÚP CUA
+                    
+                    SÚP GÀ XÉ
+                    
+                    SÚP ÓC HEO
+                    
+                    RAU MUỐNG XÀO TỎI
+                    
+                    RAU MUỐNG XÀO CHAO
+                    
+                    CÀ BẮP HẤP
+                    
+                    CÀ TÍM NƯỚNG
+                    
+                    RAU MỐP XÀO TỎI
+                    
+                    RAU MỐP XÀO HẢI SẢN
+                    
+                    RAU MỐP XÀO GÂN BÒ
+                    
+                    RAU MỐP XÀO BẮP BÒ
+                    
+                    BÔNG THIÊN LÝ XÀO TỎI
+                    
+                    KHOAI TÂY CHIÊN
+                    
+                    XÀ LÁCH DẦU GIẤM
+                    
+                    CẢI BÓ XÔI XÀO TỎI
+                    
+                    CAI THÌA XÀO TỎI
+                    
+                    MƯỚP HƯƠNG HẤP
+                </p>
+            </div>
+            <div class="about-item">
+                <img src="images/shrimp.png">
+                <p><span>Hải Sản</span> <br>
+                    CUA HẤP BIA
+
+                    CUA NƯỚNG
+                    
+                    CUA RANG ME
+                    
+                    CUA RANG MUỐI
+                    
+                    CUA SỐT CHUA NGỌT
+                    
+                    CUA GẠCH SON HẤP
+                    TÔM NƯỚNG LỤI
+
+                    TÔM HẤP NƯỚC DỪA
+
+                    TÔM HẤP BIA
+
+                    TÔM NƯỚNG
+
+                    TÔM MÙ TẠC (MÙ TẠC TÍNH RIÊNG)    
+                    SÒ
+                    SÒ DƯƠNG NƯỚNG MỠ HÀNH
+
+                    SÒ DIỆP NƯỚNG MỠ HÀNH (DĨA)   
+                    NGHÊU
+                    NGHÊU HẤP SẢ ỚT
+
+                    NGHÊU HẤP THÁI
+                </p>
+            </div>
+
+            </div>
+            <div class="about-item">
+                <img src="images/Điểm Tâm.png">
+                <p><span>Điểm Tâm</span> <br>
+                    Bánh bao, Màn Thầu, Há cảo,Hoành thánh,Bánh xếp áp chảo,Xíu mại,Bánh cuốn tôm,...
+                </p>
+            </div>
+            <div class="about-item">
+                <img src="images/salad.png">
+                <p><span>Rau Xanh</span> <br>
+                    Súp lơ xanh, Rau xà lách, Bí ngô, Cà chua, Cà tím, Cà rốt, Ớt chuông
+                </p>
+            </div>
+       </div>
+   </section>
+
+   <section class="menu">
+       <div class="menu-img">
+       </div>
+       <div class="menu-detail">
+           <h1 class="section-text"> Menu</h1>
+           <p>Menu vô cùng đa dạng cho quý khách khoải mái chọn lựa</p>
+           <a href=""> Xem chi tiết</a>
+       </div>
+   </section>
+ 
+
+   <section class="container">
+        <span class="section-text">Trải Nghiệm</span> 
+        <div class="row">
+            <div class="food-item">
+                <img src="images/food1.jpg" alt="">
+            </div>
+            <div class="food-item">
+                <img src="images/food2.jpg" alt="">
+            </div>
+            <div class="food-item">
+                <img src="images/food3.jpg" alt="">
+            </div>
+        </div>
+   </section>
+   <section class="container">
+    <span class="section-text">Món Chính</span> 
+    <div class="img-slider ">
+            <img src="images/img1.jpg" alt="">
+            <div class="slider-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="slider-btn">
+                <i class="fas fa-chevron-left left-btn"></i>
+                <i class="fas fa-chevron-right right-btn"></i>
+            </div>
+    </div>
+    <div class="row">
+        <div class="img-item">
+            <img src="images/img1.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img2.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img3.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img4.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img5.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img6.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img7.jpg" alt="">
+        </div>
+        <div class="img-item">
+            <img src="images/img8.jpg" alt="">
+        </div>
+    </div>
+</section>
+  <section class="social-icon container">
+    <a href=""><i style="color:#3B5999" class="fab fa-facebook"></i></a>
+    <a href=""><i style="color:#DE463B"  class="fab fa-youtube "></i></a>
+    <a href=""><i style="color:#46C1F6"  class="fab fa-twitter"></i></a>
+    <a href=""><i style="color:#E1306C"  class="fab fa-instagram"></i></a>
+</section>
+<footer>
+    <p>Made with <i class="fa fa-heart-o"></i> by Đặng Đức Duy</p>
+</footer>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4stTk3EMI1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<script>
+    const imgMain = document.querySelector(".img-slider img")
+    const imgItem = document.querySelectorAll(".img-item img")
+    const imgSlider = document.querySelector(".img-slider")
+    const closeBtn = document.querySelector(".slider-close i")
+    const prevBtn = document.querySelector(".left-btn")
+    const nextBtn = document.querySelector(".right-btn")
+    let imgItemNum = imgItem.length
+    
+    imgItem.forEach(function(img,index){
+        imgItem[index].addEventListener("click",function(){
+            imgSlider.style.display = "block"
+            imgMain.src =  imgItem[index].src
+            closeBtn.addEventListener("click", function(){
+            imgSlider.style.display = "none"   
+            })
+            nextBtn.addEventListener("click", function(){
+                index++
+                if(index>=imgItemNum){index=0}
+                imgMain.src =  imgItem[index].src
+            })
+            prevBtn.addEventListener("click", function(){
+                index--
+                if(index<=0){index=imgItemNum-1}
+                imgMain.src =  imgItem[index].src
+            })
+        })
+    })
+</script>
+
+</body>
+</html>

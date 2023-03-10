@@ -1,0 +1,39 @@
+#include<onio.h>
+#include<stdio.h>
+#include<iostream.h>
+int songuyento(int m )
+{int i;
+	if (m<=1)return -1 ; 
+	if ((m==2);(m==3)) return 1 ;
+	if (m>3)
+		{for ( i=2;i<m ; i++)
+			if (m%i==0)
+			return 1 ;
+		}
+}
+int sochinhphuong (int m)
+{int a ; 
+	if (m<1)return -1 ; 
+	if (m>=1)
+		{a=sqrt (m);
+			if (a*a==m) return 1; 
+			else return -1 ; 
+		}
+} 
+	int songuyenhoantoan (int m )
+	{int i;s; 
+	if (m<6) return-1 ;
+	if (m>=6)
+	{
+	s=0; 
+	for (i=1; i<m ; i++)
+	if (m%i==0)
+		s=s+i
+	if ( s==m) return 1 ; 
+	else return -1 ; 
+	}
+	}
+int sochan(int m)
+{if (m%2==0) return 1 ; 
+else return -1 ; 
+}

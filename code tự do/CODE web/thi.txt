@@ -1,0 +1,62 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+	int n,i,t,s;
+	int A [20];
+	printf("\n Nhap n: ");
+	scanf("%d",&n);
+	i=0;
+	while(n!=0)
+		{
+			A[i]=n%10;
+			n=n/10;
+			i++;
+		}
+	t=i-1;
+	s=0;
+	for(i=t;i>=0;i--)
+	s=s+A[i];
+	printf("\n tong cac chu so la :%d",s);
+	printf("\n");
+	return 0;
+	}
+
+
+#include<conio.h>
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+	int n,i,t,s,j;
+	int A [20];
+	printf("\n Nhap n: ");
+	scanf("%d",&n);
+	j=1; s=0;
+	while(j<n)
+		{if(n%j==0)
+			s=s+j;
+			j++;
+		}
+		printf("\n tong cac uoc so cua n la  :%d",s);
+	printf("\n");
+	return 0;
+}
+
+
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{int i,n,t,a;
+t=0;
+printf("nhap so n");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{a=i%2;if(a==0)t=t+i;
+}
+printf("tong cac so chan cua so n la %d \n",t);
+getchar();
+}
+

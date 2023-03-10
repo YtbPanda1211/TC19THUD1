@@ -1,0 +1,20 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main ()
+{int A [20];
+int i, n ; 
+printf("nhap phan tu thu %d",i);
+scanf("%d", &n);
+//nhap mang 
+for(i=0;i<n;i++)
+{printf("nhap phan tu thu %d",i);
+scanf("%d",&A [i]);
+}
+//xuat mang 
+
+for (i=0; i<n ;i++)
+{printf("%d;",A[i]);
+}
+return 0;
+}

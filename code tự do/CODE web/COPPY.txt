@@ -1,0 +1,11 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+int main()
+{char aa[40];
+printf("Nhap chuoi di ban:");
+scanf("%s,",&aa);
+printf("\n chuoi vua nhap la:%s",aa);
+return 0;
+}

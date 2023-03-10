@@ -1,0 +1,14 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{int i,n,t,a;
+t=0;
+printf("nhap so n");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
+{a=i%2;if(a==0)t=t+i;
+}
+printf("tong cac so chan cua so n la %d \n",t);
+getchar();
+}

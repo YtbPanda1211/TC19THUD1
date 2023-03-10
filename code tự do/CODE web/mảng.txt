@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+	<?php 
+$ho_ten=$_POST["ho_ten"];
+$mang=explode(" ",$ho_ten);
+$tendem = count($mang);
+$ho = $mang[0];
+$ten = $mang[$tendem-1];
+for($i=1;$i<$tendem-1;$i++)
+{
+	$tendem= $mang[$i]." ";
+}
+?>
+
+
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <table width="700" border="1">
+    <tr>
+      <td>tach ho va ten</td>
+    </tr>
+    <tr>
+      <td><label for="ho_ten">ho_ten</label>
+      <input type="text" name="ho_ten" id="ho_ten" value="<?php echo $ho_ten ?>" /></td>
+    </tr>
+    <tr>
+      <td><label for="ho">ho</label>
+      <input type="text" name="ho" id="ho" value="<?php echo $ho ?>" /></td>
+    </tr>
+    <tr>
+      <td><label for="tendem">tendem</label>
+      <input type="text" name="tendem" id="tendem" value="<?php echo $tendem ?>" /></td>
+    </tr>
+    <tr>
+      <td><label for="ten">ten</label>
+      <input type="text" name="ten" id="ten" value="<?php echo $ten ?>" /></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="tachhoten" id="tachhoten" value="tách h? tên" /></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

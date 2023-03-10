@@ -1,0 +1,11 @@
+#include<math.h>
+#include<iostream.h>
+#include<string.h>
+int main()
+{ int i,j;
+ 	for(i=1;i<=36;i++)
+	for(j=1;j<=36;j++)
+	if((2*i+4*j==100)&(i+j==36))
+	printf("\n so ga %d , va so cho la %d",i,j);
+return 0 ; 
+}

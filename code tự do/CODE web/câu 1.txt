@@ -1,0 +1,63 @@
+#include<iostream.h>
+#include<math.h>
+#include<conio.h>
+
+int main()
+{int chon,a,b,c,x1,x2,denta;
+ cout<<"1. giai phuong trinh bac nhat ax=b"	<<endl;
+ cout<<"2. giai phuong trinh bac hai ax^2+bx+c"	<<endl;
+ 
+ cout<<"Ban chon menu thu may ";
+ cin>>chon;
+ switch(chon)
+  {
+  	case 1:
+  	  {
+  	   cout<<" Nhap a di ban"<<endl;
+  	   cin>>a;
+  	   cout<<" Nhap b di ban"<<endl;
+  	   cin>>b;
+  	   if(a!=0)
+  	    cout<<" Co mot nghiemx="<<b/a;
+  	    else
+  	     { if(b==0)
+     	  	cout<<" VSN";
+     	  	else
+     	  	cout<<"VN";
+     	  }
+  	   break;
+  	  }
+  	   case 2:
+  	   cout<<" Nhap a di ban"<<endl;
+  	   cin>>a;
+  	   cout<<" Nhap b di ban"<<endl;
+  	   cin>>b;
+  	   cout<<" Nhap c di ban "<<endl;
+  	   cin>>c;
+  	   
+  	   denta=b*b-4*a*c;
+  	   if(denta>0)
+  	    {  x1=(-b+sqrt(denta))/(2*a);
+  	        x2=(-b-sqrt(denta))/(2*a);
+  	        cout<<" co 2  nghiem x1="<< x1 <<"va x2= "<<x2<<endl;
+    	  	
+   	    }
+  	   if(denta==0)
+  	    {  x1=(-b)/(2*a);
+  	        
+  	        cout<<" co nghiem kep x1=x2 "<< x1<<endl;
+    	  	
+   	    }
+  	
+        if(denta<0)
+        cout<<" vo nghiem"<<endl;
+        break;
+        case 3:
+        
+        default:
+        cout<<"Ban nhap khong dung";
+        break;
+  }
+  return 0;
+  }
+ 

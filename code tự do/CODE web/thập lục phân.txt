@@ -1,0 +1,21 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdlib.h>
+int main ()
+{int A[30],n,i,t;
+printf("\n Nhap n=");
+scanf("%d",&n);i=0;
+while (n!=0)
+{A[i]=n%2;
+n=n/2;
+i++;
+}
+t=i-1;
+for(i=t;i>0;i--)
+if(A[i]>=10)
+printf("%<;",A[i]+55);
+else 
+printf("%d;",A[i]);
+printf("\n");
+return 0;
+}

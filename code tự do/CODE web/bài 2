@@ -1,0 +1,19 @@
+#include<conio.h>
+#include<stdio.h>
+#include<stdio.h>
+int main()
+{
+	int n,i,t,s,j;
+	int A [20];
+	printf("\n Nhap n: ");
+	scanf("%d",&n);
+	j=1; s=0;
+	while(j<n)
+		{if(n%j==0)
+			s=s+j;
+			j++;
+		}
+		printf("\n tong cac uoc so cua n la  :%d",s);
+	printf("\n");
+	return 0;
+}
